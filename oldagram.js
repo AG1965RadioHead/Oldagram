@@ -40,7 +40,7 @@ const posts = [
 const wholePost = document.getElementById("whole-post")
 
 function render() {
-  for (let i = 0; i < posts.length; i++) {
+  for (let i = posts.length - 1; i >= 0; i --) {
     wholePost.innerHTML += `
     <section class="author-info">
         <img class="author-image" src="${posts[i].avatar}">

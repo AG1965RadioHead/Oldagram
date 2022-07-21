@@ -1,0 +1,112 @@
+html, body {
+  margin: 0 0 500px 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+header,
+main {
+  width: 375px; 
+  margin: 0 auto;  
+}
+
+header {
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.oldagram-logo {
+  margin: 15px;
+  width: 127px;
+}
+
+.user-avatar,
+.author-image {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+}
+.user-avatar {
+  margin: 16px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+
+}
+
+.author-data {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  justify-content: center;
+ }
+ 
+.author-image {
+  margin: 10px 7px 10px 10px; 
+}
+
+.author-name {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.author-place {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.main-image {
+  width: 375px;
+}
+
+.icons-block {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  }
+  
+.icons {
+  width: 22.4px;
+  margin: 21px 10px 21px 10px;
+  cursor: pointer;
+}
+
+.icons:hover {
+  opacity: 0.5;
+}
+
+.likes-line {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0 13px;
+}
+
+.comments-line {
+  margin: 0 13px;
+  display: flex;
+  font-size: 13px;
+  line-height: 16px;
+  width: 375px;
+}
+
+.username {
+  font-weight: 700;
+  padding-right: 3px;
+}
+
+.breaker {
+  height: 25px;
+  width: 375px;
+  background-color: #EDEDED;
+}
